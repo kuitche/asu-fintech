@@ -5,17 +5,21 @@
 Blockchain is a distributed and decentralized encrypted database that allows for the secure, transparent, and immutable storage of data.
 A blockchain consists of a series of blocks, which are records of data that are chained together using cryptography. Each block contains a timestamp and a link to the previous block, forming a chain. This chain of blocks is distributed across a network of computers, known as nodes, which work together to validate and record transactions.
 One key feature of blockchain technology is **decentralization**: The blockchain network is a peer-to-peer decentralized network. The peers, aka nodes, are connected to this network in a synchronous way. The nodes can be a desktop, a laptop, a mobile phone, a mining rig, servers, or any other electronic devices. These nodes form the foundation of the blockchain network. They provide computing resources like disk storage space to keep the network alive and to maintain its integrity and security, and they do it voluntarily.
-Another feature of the blockchain is that all participants in the network do not need to establish any trust relationships to perform transactions. It relies on **cryptographic authentication technology**, a decentralized network, and a **consensus mechanism** to ensure the security and integrity of funds and information. Thus, ensuring high transparency and security of information on the network.
+Another feature of the blockchain is that all participants in the network do not need to establish any trust relationships to perform transactions. It relies on **cryptographic authentication technology**, a decentralized network, and a **consensus mechanism** to ensure the security and integrity of funds and information. Thus, ensuring high transparency and security of information on the network. 
+
+![Centralized vs Decentralized](https://github.com/kuitche/asu-fintech/blob/main/centralized_decentralized.jpg)
 
 The key difference between the decentralized per-to-peer network and the traditional centralized client-server network is that the latter has an authoritative central point of control; which is prone to the vulnerability of a single point of failure. If a node in a blockchain is hacked, only the data belonging to that node would be compromised while all other nodes would keep a copy of the ledger. Moreover, the cryptographic hashing algorithm makes it extremely difficult to hack the blockchain.
 
 To ensure the nodes are motivated to maintain the network, blockchain incentivizes the nodes through a mechanism known as mining. By engaging in mining activities, the successful miners will be rewarded with cryptocurrencies such as Bitcoin, Ethereum or other coins.
 
-A blockchain is comprised of a chronological chain of blocks. The first block is known as the genesis block. A block refers to a set of transactions that are bundled together and appended to the blockchain. The second block is appended to the genesis block, the third block is appended to the second block, etc.
+A blockchain is comprised of a chronological chain of blocks. The first block is known as the genesis block. A block refers to a set of transactions that are bundled together and appended to the blockchain. The second block is appended to the genesis block, the third block is appended to the second block, etc.   
+
+![Blockchain](https://github.com/kuitche/asu-fintech/blob/main/blockchain.jpg)
 
 A block consists mainly of the block header containing metadata and a list of transactions appended to the block header. Transactions include rewards, transaction fees, etc.
 
-
+![Blockchain](https://github.com/kuitche/asu-fintech/blob/main/blockchain_block_structure.jpg)
 
 Cryptocurrency is a digital currency that uses cryptography for security and is decentralized, meaning it is not controlled by any government or financial institution. It is a type of digital currency and is also classified as an alternative currency and virtual currency.
 Cryptocurrencies use decentralized technology to allow for secure financial transactions, asset transfer verification, and the creation of new units.
@@ -139,6 +143,7 @@ In the cross-border payment networks, back-end networks often use an aggregation
 This aggregate transnational business model is especially applicable to transactions in the C2C, C2B and B2C segments, which are often low value. Back-end structures can settle these transactions faster, cheaper, and more transparently than transactions handled by CBNs.     
 Aggregate models are less successful in the B2B segment, where the average cross-border transaction value is typically higher than $50,000. Ensuring the ability to repay such high values upfront would require depositors to significantly increase their working capital requirements. These models also offer less potential for cost reduction, as current unit economics for B2B transactions are better, due to higher mean and fixed nature of fees. For these reasons, almost all high-value B2B cross-border payments are still processed through CBN.
 
+![Blockchain](https://github.com/kuitche/asu-fintech/blob/main/trends.jpg)
 
 ### What are the other major companies in this domain?
 
